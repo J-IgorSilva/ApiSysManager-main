@@ -1,0 +1,54 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <ApplicationIcon />
+    <StartupObject />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Contracts\Products\Response\NewFolder\**" />
+    <Compile Remove="Contracts\Users\Request\NewFolder\**" />
+    <Compile Remove="Contracts\Users\Response\NewFolder\**" />
+    <Compile Remove="Data\MySql\Entities\NewFolder\**" />
+    <Compile Remove="Data\MySql\NewFolder\**" />
+    <Compile Remove="Data\MySql\Repositories\NewFolder\**" />
+    <Compile Remove="Errors\NewFolder\**" />
+    <Compile Remove="Helpers\NewFolder\**" />
+    <Compile Remove="Services\NewFolder\**" />
+    <Compile Remove="Validators\NewFolder\**" />
+    <EmbeddedResource Remove="Contracts\Products\Response\NewFolder\**" />
+    <EmbeddedResource Remove="Contracts\Users\Request\NewFolder\**" />
+    <EmbeddedResource Remove="Contracts\Users\Response\NewFolder\**" />
+    <EmbeddedResource Remove="Data\MySql\Entities\NewFolder\**" />
+    <EmbeddedResource Remove="Data\MySql\NewFolder\**" />
+    <EmbeddedResource Remove="Data\MySql\Repositories\NewFolder\**" />
+    <EmbeddedResource Remove="Errors\NewFolder\**" />
+    <EmbeddedResource Remove="Helpers\NewFolder\**" />
+    <EmbeddedResource Remove="Services\NewFolder\**" />
+    <EmbeddedResource Remove="Validators\NewFolder\**" />
+    <None Remove="Contracts\Products\Response\NewFolder\**" />
+    <None Remove="Contracts\Users\Request\NewFolder\**" />
+    <None Remove="Contracts\Users\Response\NewFolder\**" />
+    <None Remove="Data\MySql\Entities\NewFolder\**" />
+    <None Remove="Data\MySql\NewFolder\**" />
+    <None Remove="Data\MySql\Repositories\NewFolder\**" />
+    <None Remove="Errors\NewFolder\**" />
+    <None Remove="Helpers\NewFolder\**" />
+    <None Remove="Services\NewFolder\**" />
+    <None Remove="Validators\NewFolder\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Contracts\Products\Response\" />
+    <Folder Include="Contracts\Users\Response\" />
+    <Folder Include="Data\MySql\Entities\" />
+    <Folder Include="Data\MySql\Repositories\" />
+    <Folder Include="Errors\" />
+    <Folder Include="Helpers\" />
+    <Folder Include="Services\" />
+    <Folder Include="Validators\" />
+  </ItemGroup>
+
+</Project>
