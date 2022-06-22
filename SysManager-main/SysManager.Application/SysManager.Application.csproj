@@ -46,9 +46,12 @@
     <Folder Include="Data\MySql\Entities\" />
     <Folder Include="Data\MySql\Repositories\" />
     <Folder Include="Errors\" />
-    <Folder Include="Helpers\" />
-    <Folder Include="Services\" />
     <Folder Include="Validators\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
   </ItemGroup>
 
 </Project>
