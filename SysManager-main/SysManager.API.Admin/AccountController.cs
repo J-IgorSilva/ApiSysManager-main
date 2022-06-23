@@ -18,7 +18,7 @@ namespace SysManager.API.Admin
             this._userService = userService;
         }
 
-        [HttpPost("account-create")]
+        [HttpPost("create-account")]
         public async Task<IActionResult> Post([FromBody] UserPostRequest request)
         {
             var response = await _userService.PostAsync(request);

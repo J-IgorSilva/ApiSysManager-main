@@ -43,8 +43,6 @@
   <ItemGroup>
     <Folder Include="Contracts\Products\Response\" />
     <Folder Include="Contracts\Users\Response\" />
-    <Folder Include="Data\MySql\Entities\" />
-    <Folder Include="Data\MySql\Repositories\" />
     <Folder Include="Errors\" />
     <Folder Include="Validators\" />
   </ItemGroup>

@@ -8,10 +8,16 @@ namespace SysManager.Application.Helpers
 {
     public static class Utils
     {
-        public static ResultData<T> SuccessData<T>(T data, bool sucess)
+        public static ResultData<T> SuccessData<T>(T data)
         {
             var result = new ResultData<T>(data);
-            result.Success = sucess;
+            result.Success = true;
+            return result;
+        }
+        public static ResultData<T> ErrorData<T>(T data)
+        {
+            var result = new ResultData<T>(data);
+            result.Success = false;
             return result;
         }
 
