@@ -6,7 +6,15 @@ namespace SysManager.Application.Contracts
 {
     public class ResponseDefault
     {
-        public Guid id { get; set; }
+        public ResponseDefault(string id, string menssage, bool hasErrors)
+        {
+            this.Id = id;
+            this.Message = menssage;
+            this.HasErros = hasErrors;
+
+        }
+
+        public string Id { get; set; }
 
         public string Message { get; set; }
 

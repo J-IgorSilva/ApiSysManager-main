@@ -34,7 +34,7 @@ namespace SysManager.Application.Services
             var entity = new UserEntity(request);
 
 
-            return Utils.SuccessData(await _userRepository.CreatAsync(entity));
+            return Utils.SuccessData(await _userRepository.PostAsync(entity));
         }
     }
 }
