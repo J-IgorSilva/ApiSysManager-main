@@ -10,6 +10,10 @@ namespace SysManager.Application.Data.MySql.Entities
     [Table("user")]
     public class UserEntity
     {
+        public UserEntity()
+        {
+
+        }
         public UserEntity(UserPostRequest user)
         {
             this.Id = Guid.NewGuid();

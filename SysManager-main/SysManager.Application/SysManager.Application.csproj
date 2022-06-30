@@ -17,7 +17,6 @@
     <Compile Remove="Errors\NewFolder\**" />
     <Compile Remove="Helpers\NewFolder\**" />
     <Compile Remove="Services\NewFolder\**" />
-    <Compile Remove="Validators\NewFolder\**" />
     <EmbeddedResource Remove="Contracts\Products\Response\NewFolder\**" />
     <EmbeddedResource Remove="Contracts\Users\Request\NewFolder\**" />
     <EmbeddedResource Remove="Contracts\Users\Response\NewFolder\**" />
@@ -27,7 +26,6 @@
     <EmbeddedResource Remove="Errors\NewFolder\**" />
     <EmbeddedResource Remove="Helpers\NewFolder\**" />
     <EmbeddedResource Remove="Services\NewFolder\**" />
-    <EmbeddedResource Remove="Validators\NewFolder\**" />
     <None Remove="Contracts\Products\Response\NewFolder\**" />
     <None Remove="Contracts\Users\Request\NewFolder\**" />
     <None Remove="Contracts\Users\Response\NewFolder\**" />
@@ -37,20 +35,21 @@
     <None Remove="Errors\NewFolder\**" />
     <None Remove="Helpers\NewFolder\**" />
     <None Remove="Services\NewFolder\**" />
-    <None Remove="Validators\NewFolder\**" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Contracts\Products\Response\" />
     <Folder Include="Contracts\Users\Response\" />
-    <Folder Include="Errors\" />
-    <Folder Include="Validators\" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Dapper" Version="2.0.35" />
+    <PackageReference Include="FluentValidation" Version="11.1.0" />
+    <PackageReference Include="Google.Apis.Admin.Directory.directory_v1" Version="1.57.0.2728" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Abstractions" Version="2.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+    <PackageReference Include="Microsoft.Azure.DocumentDB.Core" Version="2.18.0" />
+    <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="6.0.1" />
     <PackageReference Include="MySql.Data" Version="8.0.25" />
   </ItemGroup>
 
